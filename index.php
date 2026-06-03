@@ -18,6 +18,7 @@ include('name.php');
 include('number.php');
 include('api-sites.php');
 
+//
 function bot($method,$datas=[]){
 $amrakl = http_build_query($datas);
 $url = "https://api.telegram.org/bot".API_KEY."/".$method."?$amrakl";
