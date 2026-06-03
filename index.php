@@ -11,7 +11,7 @@ ob_start();
 @mkdir('data/id');
 @mkdir('data/txt');
 @mkdir('data/api');
-$API_KEY= '7654148097:AAGvOfQKt8BZTVd1PdDV7uooeykVm3gKnEE';
+$API_KEY= '8720261214:AAFVfQI1jh8oxAB6vj0WapkENaeheoNU5jo';
 define('API_KEY',$API_KEY);
 include('admin.php');
 include('name.php');
