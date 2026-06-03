@@ -18,7 +18,6 @@ include('name.php');
 include('number.php');
 include('api-sites.php');
 
-echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
 function bot($method,$datas=[]){
 $amrakl = http_build_query($datas);
 $url = "https://api.telegram.org/bot".API_KEY."/".$method."?$amrakl";
