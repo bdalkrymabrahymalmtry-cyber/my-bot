@@ -3,14 +3,14 @@
 // By @v_9_k_e
 
 ob_start();
-mkdir('data');
-mkdir('EMIL');
-mkdir('EMILS');
-mkdir('BUY');
-mkdir('assignment');
-mkdir('data/id');
-mkdir('data/txt');
-mkdir('data/api');
+@mkdir('data');
+@mkdir('EMIL');
+@mkdir('EMILS');
+@mkdir('BUY');
+@mkdir('assignment');
+@mkdir('data/id');
+@mkdir('data/txt');
+@mkdir('data/api');
 $API_KEY= '7654148097:AAGvOfQKt8BZTVd1PdDV7uooeykVm3gKnEE';
 define('API_KEY',$API_KEY);
 include('admin.php');
